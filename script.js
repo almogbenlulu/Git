@@ -1,8 +1,18 @@
 function changeColor() {
-  document.querySelector('.Upper-table thead').classList.add("pink")
-  document.querySelector('.Upper-table thead').style.background = 'black'
-  document.querySelector('.Mid-table thead').style.color = 'white'
-  document.querySelector('.Mid-table thead').style.background = 'black'
-  document.querySelector('.Low-table thead').style.color = 'white'
-  document.querySelector('.Low-table thead').style.background = 'black'
+  if(document.querySelector('.pink')){
+    document.querySelector('.Upper-table').classList.add('green')
+    document.querySelector('.Mid-table').classList.add('yellow')
+    document.querySelector('.Low-table').classList.add('red')
+    document.querySelector('.Upper-table').classList.remove('pink')
+    document.querySelector('.Mid-table').classList.remove('pink')
+    document.querySelector('.Low-table').classList.remove('pink')
+  }
+  else{
+    document.querySelector('.Upper-table').classList.add('pink')
+    document.querySelector('.Mid-table').classList.add('pink')
+    document.querySelector('.Low-table').classList.add('pink')
+    document.querySelector('.Upper-table').classList.remove('green')
+    document.querySelector('.Mid-table').classList.remove('yellow')
+    document.querySelector('.Low-table').classList.remove('red')
+    }
   }
