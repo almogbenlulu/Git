@@ -14,16 +14,16 @@ table, td{
     margin-bottom: 45px;
 }
 
-.Upper-table thead{
+.Upper-table{
     background: #007000;
     padding: 12px 15px;
 }
 
-.Mid-table thead{
+.Mid-table{
     background: #FFFF00;
 }
 
-.Low-table thead{
+.Low-table{
     background: #e62020;
 }
 
@@ -73,6 +73,6 @@ table tr td{
 }
 
 .pink{
-    color: #fff;
-    background: pink;
+    color: pink;
+    background: rgb(242, 241, 241);
 }
